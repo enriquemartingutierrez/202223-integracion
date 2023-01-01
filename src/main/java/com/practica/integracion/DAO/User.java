@@ -11,8 +11,7 @@ public class User {
 	private List<Object> roles;
 	
 	
-	public User(String id, String firstName, String lastName, String address,
-			List<Object> roles) {
+	public User(String id, String firstName, String lastName, String address, List<Object> roles) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
